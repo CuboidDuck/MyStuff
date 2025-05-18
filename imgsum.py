@@ -2,9 +2,9 @@ import requests
 import time
 from datetime import datetime
 
-# API Key from Helius
+# Insert API Key from Helius between quotes
 API_KEY = ''
-# Your wallet
+# Insert Your wallet between quotes
 ADDRESS = ''
 # API URL to Helius to pull information from address
 BASE_URL = f"https://api.helius.xyz/v0/addresses/{ADDRESS}/transactions"
